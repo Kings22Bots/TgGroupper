@@ -61,7 +61,7 @@ async def reset(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # --- Bot Initialization ---
 def main():
     
-    TOKEN = 8294563729:AAGw8FE2pEkkWrt5ygS03J0r8tPNZMt9DZQ
+    TOKEN = "8294563729:AAGw8FE2pEkkWrt5ygS03J0r8tPNZMt9DZQ"
     
     app = Application.builder().token(TOKEN).build()
 
